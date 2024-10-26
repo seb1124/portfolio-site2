@@ -1,1 +1,3 @@
-# portfolio-site2
+# Online portfolio
+
+Second iteration of online portfolio
