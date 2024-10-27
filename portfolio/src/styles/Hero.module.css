@@ -1,0 +1,54 @@
+
+.heroContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 5rem;
+}
+.textContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.portrait{
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    border: solid whitesmoke;
+}
+.text{
+    padding: .25rem;
+    margin: 1rem;
+}
+.gradient{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.underline{
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: #00b4d8;
+}
+.socialsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+.socials{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}

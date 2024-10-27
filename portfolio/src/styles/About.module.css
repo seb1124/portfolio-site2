@@ -1,0 +1,38 @@
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    align-self: flex-start;
+}
+.skillsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+.skills{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+.underline{
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: #00b4d8;
+    align-self: flex-start;
+}
+.underline2{
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: #00b4d8;
+}

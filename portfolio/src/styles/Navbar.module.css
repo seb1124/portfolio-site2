@@ -1,0 +1,28 @@
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 2rem;
+}
+.navLinks{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+.link{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: color 0.3s ease;
+    font-size: 1.5rem;
+}
+.link:hover{
+    text-decoration: underline;
+    text-underline-offset: .5rem;
+    text-decoration-color: #00b4d8;
+}
