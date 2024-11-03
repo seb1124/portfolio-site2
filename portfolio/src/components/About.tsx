@@ -28,7 +28,6 @@ import { SiMongodb } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { SiVite } from "react-icons/si";
 
-
 function About(){
     return(
         <div className={styles.aboutContainer}>
@@ -37,48 +36,50 @@ function About(){
             <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
             <h2 className={styles.underline2}>Skills</h2>
 
-            <div className={styles.skillsContainer}>
-                <div>
-                    <h3>Languages</h3>
-                    <ul className={styles.skills}>
-                        <li><FaPython size={30}></FaPython></li>
-                        <li><FaJava size={30}></FaJava></li>
-                        <li><FaHtml5 size={30}></FaHtml5></li>
-                        <li><FaCss3Alt size={30}></FaCss3Alt></li>
-                        <li><IoLogoJavascript size={30}></IoLogoJavascript></li>
-                        <li><SiTypescript size={27}></SiTypescript></li>
-                        <li><FaPhp size={30}></FaPhp></li>
-                    </ul>
+            <div className={styles.parentContainer}>
+                <div className={styles.skillsContainer}>
+                    <div>
+                        <h3>Languages</h3>
+                        <ul className={styles.skills}>
+                            <li><FaPython size={30}></FaPython></li>
+                            <li><FaJava size={30}></FaJava></li>
+                            <li><FaHtml5 size={30}></FaHtml5></li>
+                            <li><FaCss3Alt size={30}></FaCss3Alt></li>
+                            <li><IoLogoJavascript size={30}></IoLogoJavascript></li>
+                            <li><SiTypescript size={27}></SiTypescript></li>
+                            <li><FaPhp size={30}></FaPhp></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Libraries</h3>
+                        <ul className={styles.skills}>
+                            <li><SiPandas size={30}></SiPandas></li>
+                            <li><SiNumpy size={30}></SiNumpy></li>
+                            <li><SiScikitlearn size={30}></SiScikitlearn></li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    <h3>Libraries</h3>
-                    <ul className={styles.skills}>
-                        <li><SiPandas size={30}></SiPandas></li>
-                        <li><SiNumpy size={30}></SiNumpy></li>
-                        <li><SiScikitlearn size={30}></SiScikitlearn></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Frameworks</h3>
-                    <ul className={styles.skills}>
-                        <li><FaReact size={30}></FaReact></li>
-                        <li><FaBootstrap size={30}></FaBootstrap></li>
-                        <li><SiExpress size={30}></SiExpress></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Technologies</h3>
-                    <ul className={styles.skills}>
-                        <li><FaGithub size={30}></FaGithub></li>
-                        <li><SiJupyter size={30}></SiJupyter></li>
-                        <li><SiMongodb size={30}></SiMongodb></li>
-                        <li><SiMysql size={30}></SiMysql></li>
-                        <li><SiVite size={30}></SiVite></li>
-
-                    </ul>
+                <div className={styles.skillsContainer}>
+                    <div>
+                        <h3>Frameworks</h3>
+                        <ul className={styles.skills}>
+                            <li><FaReact size={30}></FaReact></li>
+                            <li><FaBootstrap size={30}></FaBootstrap></li>
+                            <li><SiExpress size={30}></SiExpress></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Technologies</h3>
+                        <ul className={styles.skills}>
+                            <li><FaGithub size={30}></FaGithub></li>
+                            <li><SiJupyter size={30}></SiJupyter></li>
+                            <li><SiMongodb size={30}></SiMongodb></li>
+                            <li><SiMysql size={30}></SiMysql></li>
+                            <li><SiVite size={30}></SiVite></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            
         </div>
     )
 }

@@ -1,14 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 import HomePage from './pages/HomePage'
-import Navbar from './components/Navbar';
 import AboutPage from './pages/AboutPage';
+import Navbar from './components/Navbar';
 
 function App() {
 
   return (
     <>
-      <Router>
+    <Router basename="/portfolio-site2">
           <Navbar/>
           <Routes>
             <Route path="/" element ={<HomePage/>} />

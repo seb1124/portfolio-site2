@@ -12,11 +12,16 @@
     color: transparent;
     align-self: flex-start;
 }
+.parentContainer{
+    display: flex;
+    gap: 10rem;
+}
 .skillsContainer{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10rem;
+    gap: 1rem;
+    flex-direction: column;
 }
 .skills{
     list-style-type: none;
