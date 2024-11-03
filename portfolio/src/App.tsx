@@ -3,6 +3,7 @@ import './App.css'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage';
 import Navbar from './components/Navbar';
+import ProjectPage from './pages/ProjectPage';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
           <Routes>
             <Route path="/" element ={<HomePage/>} />
             <Route path="/about" element ={<AboutPage/>} />
+            <Route path="/projects" element ={<ProjectPage/>} />
           </Routes>
       </Router>
     </>

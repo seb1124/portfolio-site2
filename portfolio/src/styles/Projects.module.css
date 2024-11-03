@@ -1,0 +1,47 @@
+/*  Project Card Component Styling  */
+.cardContainer{
+    background-color: #00b4d8;
+    border-radius: 2px;
+    border: solid black;
+    box-shadow: 0 4px 8px rgba(5, 163, 230, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 350px;
+    max-height: 400px;
+}
+.cardContainer:hover{
+    transform: translateY(-5px);
+    opacity: 0.8;
+}
+.projectImage{
+    width: 100%;
+    height: 400px;
+    width: 350px;
+    object-fit: cover;
+}
+.projectCard h3{
+    font-size: 1.5em;
+    margin: 3rem 0;
+}
+.link{
+    color: whitesmoke;
+}
+.link:hover{
+    color: whitesmoke;
+}
+
+/* Projects Page styling */
+.underline{
+    text-decoration: underline;
+    text-underline-offset: 0.75rem;
+    text-decoration-color: #00b4d8;
+    align-self: flex-start;
+    margin-bottom: 5rem;
+}
+.projectContainer{
+    display: flex;
+    gap: 5rem;
+}
